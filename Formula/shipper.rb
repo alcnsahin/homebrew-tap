@@ -6,12 +6,12 @@ class Shipper < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/alcnsahin/shipper/releases/download/v#{version}/shipper-macos-arm64"
-      sha256 "PLACEHOLDER_UPDATED_BY_CI"
+      url "https://github.com/alcnsahin/shipper/releases/download/v0.1.0/shipper-macos-arm64"
+      sha256 "4efc19799fbbbb048472c207d9fc9f8ae0ff6db8a7f977b8e2a9ee5c47c1a58a"
     end
     on_intel do
-      url "https://github.com/alcnsahin/shipper/releases/download/v#{version}/shipper-macos-x86_64"
-      sha256 "PLACEHOLDER_UPDATED_BY_CI"
+      url "https://github.com/alcnsahin/shipper/releases/download/v0.1.0/shipper-macos-x86_64"
+      sha256 "45cb837e303455fba6864ec3d50589b1abab71c9517728c338794e45222c9ee1"
     end
   end
 
