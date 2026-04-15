@@ -1,17 +1,17 @@
 class Shipper < Formula
   desc "Ship iOS and Android apps to the App Store and Play Store from your Mac"
   homepage "https://github.com/alcnsahin/shipper"
-  version "0.1.10"
+  version "0.1.11"
   license "LicenseRef-Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/alcnsahin/shipper/releases/download/v0.1.10/shipper-macos-arm64"
-      sha256 "9830f76af01e0ec9ff32ba0fa923d25ed1ead5ad583dddd0c1a7453690dc1bbc"
+      url "https://github.com/alcnsahin/shipper/releases/download/v0.1.11/shipper-macos-arm64"
+      sha256 "d3aefa8095951ad79101be596ff03f3722a0c134a2ba0571d92a7debd4b970f1"
     end
     on_intel do
-      url "https://github.com/alcnsahin/shipper/releases/download/v0.1.10/shipper-macos-x86_64"
-      sha256 "0f2c2d72b8cc8d58f55c49bdf62ae72f4206982bf70da975ed55f93059bae36e"
+      url "https://github.com/alcnsahin/shipper/releases/download/v0.1.11/shipper-macos-x86_64"
+      sha256 "3921ea90cd837fc12caa63590b8c42c95ee3dfb4d3429b1ad7b06d067c47fb73"
     end
   end
 
